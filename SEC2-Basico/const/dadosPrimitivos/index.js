@@ -1,5 +1,9 @@
 // TIPO PRIMIVO x TIPO PASSADO POR REFERENCIA
 
+
+// PRIMITIVO - String; number; undefined; null; boolean, symbol
+
+
 const name = 'Luiz';
 const name1 = "Luiz"; 
 const name2 = `Luiz`;
@@ -17,7 +21,7 @@ const y = z;
 console.log(z, y); // 2 2 
 
 z = 3;
-console.log(z, y); //3
+console.log(z, y); //3 2
 
 // valor de referencia com push 
 const a = [1, 2]; //array
